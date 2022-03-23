@@ -24,4 +24,7 @@
 
 #### 템플릿 메서드 (Template Method Pattern)
  - https://gyucheolk.tistory.com/64
+ 
+ #### 책임 사슬 (Chain of Responsibility Pattern)
+  - https://gyucheolk.tistory.com/65
 
