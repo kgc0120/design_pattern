@@ -1,4 +1,4 @@
-package com.bumblebee.designpattern.behabioral.template;
+package com.bumblebee.designpattern.behavioral.template;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

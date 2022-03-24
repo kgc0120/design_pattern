@@ -27,4 +27,7 @@
  
  #### 책임 사슬 (Chain of Responsibility Pattern)
   - https://gyucheolk.tistory.com/65
+  
+ #### 커맨드 (Command Pattern)
+  - https://gyucheolk.tistory.com/66 
 

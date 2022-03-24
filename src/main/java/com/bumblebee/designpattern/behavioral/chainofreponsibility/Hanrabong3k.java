@@ -1,6 +1,6 @@
-package com.bumblebee.designpattern.behabioral.chainofreponsibility;
+package com.bumblebee.designpattern.behavioral.chainofreponsibility;
 
-public class Hanrabong10k implements HanrabongChain{
+public class Hanrabong3k implements HanrabongChain{
 
     private HanrabongChain hanrabongChain;
 
@@ -11,8 +11,8 @@ public class Hanrabong10k implements HanrabongChain{
 
     @Override
     public void weightFilter(int weight) {
-        if(weight >= 10) {
-            System.out.println("IN 10kg box!");
+        if(weight >= 3) {
+            System.out.println("IN 3kg box!");
         } else {
             this.hanrabongChain.weightFilter(weight);
         }

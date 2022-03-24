@@ -1,4 +1,4 @@
-package com.bumblebee.designpattern.behabioral.chainofreponsibility;
+package com.bumblebee.designpattern.behavioral.chainofreponsibility;
 
 public class Hanrabong {
 
