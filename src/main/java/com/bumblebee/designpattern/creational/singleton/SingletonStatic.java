@@ -4,19 +4,13 @@ public class SingletonStatic {
 
     private static SingletonStatic instance;
 
-    private SingletonStatic() {
-
-    }
-
-    static {
-        try {
-            instance = new SingletonStatic();
-        }catch (Exception e) {
-            throw new RuntimeException("인스턴스 생성 에러");
-        }
-    }
+    private SingletonStatic() {}
 
     public static SingletonStatic getInstance() {
+        if(instance == null) {
+            instance = new SingletonStatic();
+        }
+
         return instance;
     }
 
